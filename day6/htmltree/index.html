@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <style>
+    div{
+        padding-left: 5px;
+        position: relative;
+        /* border: 1px solid black;
+        margin-left: 5px;
+        margin-bottom: 1px;*/
+    } 
+    div:before, div:after{
+        content: "";
+        position: absolute;
+        left: -5px;
+    }
+    div:before{
+        border-top: 1px solid #000;
+        top: 9px;
+        width: 8px;
+        height: 0;
+    }
+    div::after{
+        border-left: 1px solid #000;
+        height: 100%;
+        width: 0px;
+        top: 2px;
+    }
+
+    </style> -->
+    <style>
+    div{
+        border: 1px solid black;
+        border-right: none;
+        margin-left: 5px;
+        margin-bottom: 2px;
+        box-sizing: border-box;
+        background: white;
+        color: black;
+    }
+
+    #you{
+        color: green;
+    }
+
+    #santa{
+        color: green;
+    }
+
+    </style>
+    <title>TreeView</title>
+</head>
+<body>
+    <button>Find path and highlight</button> <span></span>
+    <ol></ol>
+    <div id="root"></div>
+</body>
+    <script src="./treeGenerator.js"></script>
+</html>
