@@ -1091,6 +1091,7 @@ function searchNodes(){
             })
         }
         let parentNode = node.parentNode;
+        
 
         let childrenNodes = node.children;
         if(parentNode && !visited[parentNode.innerText]){
